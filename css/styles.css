@@ -78,12 +78,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 25px;
+  position:relative;
   width: 100%;
 }
 .card-user-profile__avatar {
   border-radius: 50%;
   max-width: 50px;
 }
+/* User profile info */
 .user-profile-info {
   border: 1px solid orange;
   font-size: 13px;
@@ -96,6 +98,43 @@
 }
 .user-profile-info__date{
     color: var(--third-color);
+}
+/* Share */
+.share__icon{
+    color: #fff;
+    background-color: var(--second-color);
+    border-radius: 50%;
+    padding: 10px;
+    height: 35px;
+    width: 35px;
+    line-height: 15px;
+    z-index: 100000;
+}
+.share-tooltip{
+    position: absolute;
+    width: 100%;
+    background-color: var(--tooltip-bg-color);
+    left: 0;
+    height: 100%;
+    border-radius: 0px 0px 15px 15px;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+}
+.share-tooltip__description{
+    text-transform: uppercase;
+    color: var(--third-color);
+    letter-spacing: 5px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.share-tooltip__icon{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.share-tooltip__icon:nth-child(odd){
+    margin: 0px 15px;
 }
 /* Attribution footer*/
 .attribution {
