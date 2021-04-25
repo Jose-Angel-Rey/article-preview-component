@@ -6,7 +6,7 @@
 
 ### Links
 
-- Live Site URL: [🚀🚀 Here 🚀🚀](https://coding-bootcamp-testimonials-slider-jose-angel-rey.vercel.app/)
+- Live Site URL: [🚀🚀 Here 🚀🚀](#)
 
 ### Built with
 
