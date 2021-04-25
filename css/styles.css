@@ -25,14 +25,31 @@
   left: -100000000;
   overflow: hidden;
 }
-
+.main-container{
+    border:1px solid magenta;
+    background-color: var(--body-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    width:100%;
+}
+/* Card */
+.card{
+    border:1px solid magenta;
+    border-radius: 15px;
+    width: 90%;
+}
+.card-image{
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+}
 /* Attribution footer*/
 .attribution {
   background-color: #f4f4fc;
   font-size: 14px;
-  font-family: var(--main-font);
   text-align: center;
-  color: var(--main-color);
+  color: green;
   padding: 20px;
 }
 .attribution a {
