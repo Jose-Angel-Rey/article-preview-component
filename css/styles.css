@@ -5,12 +5,17 @@
   box-sizing: border-box;
 }
 :root {
-  /* Fonts */
-  --main-font: "Inter", sans-serif;
+  font-family: "Manrope", sans-serif;
 
   /* Text colors */
-  --main-color: hsl(240, 38%, 20%);
-  --second-color: hsl(240, 18%, 77%);
+  --main-color: hsl(217, 19%, 35%);
+  --second-color: hsl(214, 17%, 51%);
+  --third-color: hsl(212, 23%, 69%);
+
+  /* Background colors */
+  --body-bg-color: hsl(210, 46%, 95%);
+  --share-icon-bg-color: hsl(214, 17%, 51%);
+  --tooltip-bg-color: hsl(217, 19%, 35%);
 }
 /* ScreenReader only */
 .sr-only {
