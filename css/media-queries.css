@@ -11,7 +11,6 @@
     width: 40%;
   }
   .card-content-container {
-    border: 1px solid greenyellow;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,13 +30,14 @@
   }
   /* Attribution footer */
   .attribution {
+    background-color: transparent;
     position: absolute;
     bottom: 50px;
     left: 50px;
   }
 }
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 780px) {
   .card__image {
-    height: 340px;
+    height: 295px;
   }
-} */
+}

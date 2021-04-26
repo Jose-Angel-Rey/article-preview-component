@@ -26,7 +26,6 @@
   overflow: hidden;
 }
 .main-container {
-  border: 1px solid magenta;
   background-color: var(--body-bg-color);
   display: flex;
   justify-content: center;
@@ -38,7 +37,6 @@
 /* Card */
 .card {
   background-color: #fff;
-  border: 1px solid magenta;
   border-radius: 15px;
   box-shadow: 1px 2px 5px hsla(0, 0%, 50%, 0.4);
   display: flex;
@@ -57,7 +55,6 @@
 }
 /* Card content */
 .card-content-wrapper {
-  border: 1px solid red;
   font-size: 15px;
   padding: 40px 25px 20px;
   width: 100%;
@@ -74,7 +71,6 @@
 }
 /* Card user */
 .card-user-profile-wrapper {
-  border: 1px green;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -88,7 +84,6 @@
 }
 /* User profile info */
 .user-profile-info {
-  border: 1px solid orange;
   font-size: 13px;
   margin-right: auto;
   margin-left: 10px;
@@ -149,7 +144,7 @@
 }
 /* Attribution footer*/
 .attribution {
-  background-color: transparent;
+  background-color: var(--body-bg-color);
   font-size: 14px;
   text-align: center;
   color: green;
