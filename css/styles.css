@@ -33,6 +33,7 @@
   align-items: center;
   padding: 30px 0px;
   width: 100%;
+  min-height: 100vh;
 }
 /* Card */
 .card {
@@ -101,14 +102,19 @@
 }
 /* Share */
 .share__icon{
-    color: #fff;
-    background-color: var(--second-color);
     border-radius: 50%;
+    color: var(--second-color);
+    background-color: var(--body-bg-color);
     padding: 10px;
     height: 35px;
     width: 35px;
     line-height: 15px;
+    transition: all .5s;
     z-index: 100000;
+}
+.share__icon:hover{
+  color: #fff;
+  background-color: var(--second-color);
 }
 .share-tooltip{
     position: absolute;
@@ -120,6 +126,7 @@
     padding: 0px 30px;
     display: flex;
     align-items: center;
+    display: none;
 }
 .share-tooltip__description{
     text-transform: uppercase;
