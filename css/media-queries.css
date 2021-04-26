@@ -30,20 +30,24 @@
   }
   /* Tooltip */
   .share-tooltip {
-    width: 250px;
-    right: 0;
-    /* left: 100%; */
-    /* top: -75px; */
-    transform: translate(75% ,-100%);
+    width: 240px;
+    transform: translate(75% ,-125%);
     border-radius: 10px;
     height: auto;
     padding: 15px 25px;
     justify-content: space-evenly;
-    /* opacity: 0; */
-  }
-  .share__icon:hover + .share-tooltip {
-    transition: all 1s;
     opacity: 1;
+  }
+  .share-tooltip::after {
+      content: "";
+      width: 20px;
+      height: 10px;
+      transform: rotate(.5turn);
+      right: 45px;
+      background-color: var(--tooltip-bg-color);
+      position: absolute;
+      bottom: -10px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   }
   .share-tooltip__description {
     text-transform: uppercase;
