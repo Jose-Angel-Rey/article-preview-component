@@ -114,6 +114,9 @@
   color: #fff;
   background-color: var(--second-color);
 }
+.share__btn:active {
+  transform: scale(.95);
+}
 .share-tooltip {
   position: absolute;
   width: 100%;
@@ -138,18 +141,21 @@
   margin-right: 20px;
   animation: changeColor 1s 1s alternate infinite;
 }
-@keyframes changeColor{
-  from{
+@keyframes changeColor {
+  from {
     color: var(--third-color);
   }
-  to{
+  to {
     color: #fff;
   }
 }
 .share-tooltip__icon {
+  background-color: transparent;
+  border: none;
   color: white;
-  text-decoration: none;
+  cursor: pointer;
   font-size: 20px;
+  text-decoration: none;
 }
 .share-tooltip__icon:nth-child(odd) {
   margin: 0px 15px;

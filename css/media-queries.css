@@ -64,12 +64,14 @@
     color: white;
     text-decoration: none;
     font-size: 20px;
+    transition: all .5s;
   }
   .share-tooltip__icon:nth-child(odd) {
     margin: 0px 15px;
   }
   .share-tooltip__icon:hover {
     color: var(--body-bg-color);
+    transform: scale(1.05);
   }
   .share-tooltip__icon:active {
     transform: scale(0.95);
