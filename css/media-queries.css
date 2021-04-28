@@ -31,22 +31,23 @@
   /* Tooltip */
   .share-tooltip {
     width: 240px;
-    transform: translate(75% ,-125%);
+    transform: translateY(-125%);
     border-radius: 10px;
     height: auto;
+    left: 50%;
     padding: 15px 25px;
     justify-content: space-evenly;
     opacity: 1;
   }
   .share-tooltip::after {
       content: "";
-      width: 20px;
-      height: 10px;
+      width: 30px;
+      height: 15px;
       transform: rotate(.5turn);
-      right: 45px;
+      right: 60px;
       background-color: var(--tooltip-bg-color);
       position: absolute;
-      bottom: -10px;
+      bottom: -13px;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   }
   .share-tooltip__description {
