@@ -40,14 +40,14 @@
     opacity: 1;
   }
   .share-tooltip::after {
-      content: "";
-      width: 30px;
-      height: 15px;
-      transform: rotate(.5turn);
-      right: 60px;
-      background-color: var(--tooltip-bg-color);
-      position: absolute;
-      bottom: -13px;
+    content: "";
+    width: 30px;
+    height: 15px;
+    transform: rotate(0.5turn);
+    right: 60px;
+    background-color: var(--tooltip-bg-color);
+    position: absolute;
+    bottom: -13px;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   }
   .share-tooltip__description {
@@ -76,5 +76,13 @@
 @media screen and (min-width: 780px) {
   .card__image {
     height: 295px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .share-tooltip {
+    left: 62%;
+  }
+  .share-tooltip::after {
+    right: auto;
   }
 }
